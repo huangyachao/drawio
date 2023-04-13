@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T09:38:05.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.7" etag="y01HEAgA5bF9ZNyD7yjv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T09:49:51.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="MSR2ixHibqa1shoFvSx5" version="21.1.7" type="github">
   <diagram name="Page-1" id="wpJ-wkNyAKuudrSQqgEH">
-    <mxGraphModel>
+    <mxGraphModel dx="1900" dy="493" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-KdLUi1ZGAXRrH6tEu7k-1" target="-KdLUi1ZGAXRrH6tEu7k-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="134" y="74" />
+              <mxPoint x="447" y="74" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-1" value="Follower" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=default;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="74" y="133" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-KdLUi1ZGAXRrH6tEu7k-3" target="-KdLUi1ZGAXRrH6tEu7k-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-KdLUi1ZGAXRrH6tEu7k-3" target="-KdLUi1ZGAXRrH6tEu7k-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-3" value="Candidate" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=default;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="387" y="133" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-KdLUi1ZGAXRrH6tEu7k-4" target="-KdLUi1ZGAXRrH6tEu7k-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-4" value="Leader" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=default;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="236" y="286" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-6" value="超时未接收到Leader的AppendEntries包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="232" y="27" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-8" value="发现其他节点任期更高/选举失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="228" y="183" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-9" value="发现其他节点任期更高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="246" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-KdLUi1ZGAXRrH6tEu7k-15" value="得到大多数节点的选票" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="437" y="270" width="141" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
